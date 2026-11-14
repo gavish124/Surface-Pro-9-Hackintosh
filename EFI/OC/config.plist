@@ -32,11 +32,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG-ALT-12.aml</string>
+				<string>SSDT-PLUG-ALT.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-ALT-12.aml</string>
+				<string>SSDT-PLUG-ALT.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -64,11 +64,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-SURFACE.aml</string>
+				<string>SSDT-SAM.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-SURFACE.aml</string>
+				<string>SSDT-SAM.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -364,6 +364,8 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel Iris Xe Graphics</string>
+				<key>enable-backlight-smoother</key>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>

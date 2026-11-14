@@ -8,15 +8,13 @@ macOS on the Microsoft Surface Pro 9 with patches
 ## Changelog
 
  - 11/11/26 - Create repo
- - 11/13/26 - Update WhateverXe kext to [patched 0.8.2](https://github.com/gavish124/WhateverXe) (made by me). Replace BigSurface kext with [WIP kext](https://github.com/Lulurala3119/BigSurface-for-Surface-Laptop-5) optimized for Surface Laptop 5 thanks to [Lulurala3119](https://github.com/Lulurala3119)
+ - 11/14/26 - Update WhateverXe kext to [patched 0.8.2](https://github.com/gavish124/WhateverXe) (made by me). Replace BigSurface kext with [WIP kext](https://github.com/Lulurala3119/BigSurface-for-Surface-Laptop-5) optimized for Surface Laptop 5 thanks to [Lulurala3119](https://github.com/Lulurala3119)
 
 ## Tested macOS versions
 
  - macOS 26.7.1
 
 ## Additional Notes
-
-[](https://github.com/jlempen/Surface-Laptop-3-OpenCore#recommendations)
 
 Please be aware that all  `PlatformInfo`  and  `SMBIOS`  information was removed from the  `config.plist` file. You will need to generate your own  `PlatformInfo`  with  [CorpNewt's GenSMBIOS tool](https://github.com/corpnewt/GenSMBIOS)  before installing macOS with this repo's EFI folder.
 
@@ -28,8 +26,11 @@ The `AirportItlwm` kext in this repo's EFI folder is [Laobamac's patched Airport
  
 ## What works
  
- - GPU Acceleration via patched `WhateverXe` kext
+ - GPU Acceleration via patched `WhateverXe` kext (HiDPI resolution turns on by automatically)
  - Brightness slider via patched `SSDT_PNLF` aml
+ - Speakers and microphone
+ - Only keyboard on type cover (if connected at boot)
+ - Battery Status
 
  </details>
 
@@ -39,7 +40,7 @@ The `AirportItlwm` kext in this repo's EFI folder is [Laobamac's patched Airport
 ## What needs some more work
  
  - Surface exclusive hardware (i.e. power & volume buttons, type cover hotswap, trackpad)
- - GPU issues (i.e. cursor artifacting, video playback issues on Safari, 120 Hz issues)
+ - GPU issues (i.e. cursor artifacting, 120 Hz issues)
  - USB mapping
 
  </details>
