@@ -9,6 +9,7 @@ macOS on the Microsoft Surface Pro 9 with patches
 
  - 11/11/26 - Create repo
  - 11/14/26 - Update WhateverXe kext to [patched 0.8.2](https://github.com/gavish124/WhateverXe) (made by me). Replace BigSurface kext with [WIP kext](https://github.com/Lulurala3119/BigSurface-for-Surface-Laptop-5) optimized for Surface Laptop 5 thanks to [Lulurala3119](https://github.com/Lulurala3119)
+ - 11/19/26 - Add an ACPI patch that changes the FADT preferred power profile from tablet to mobile, so System Settings shows Battery instead of Energy
 
 ## Tested macOS versions
 

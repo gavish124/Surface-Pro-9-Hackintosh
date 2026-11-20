@@ -227,6 +227,36 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>FADT Preferred PM Profile: Tablet (8) -&gt; Mobile (2)</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>AAAAAAAAAAAACA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>AAAAAAAAAAD//w==</data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>AAAAAAAAAAAAAg==</data>
+				<key>ReplaceMask</key>
+				<data>AAAAAAAAAAAA/w==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RkFDUA==</data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
