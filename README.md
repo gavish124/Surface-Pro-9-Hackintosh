@@ -52,7 +52,7 @@ The `AirportItlwm` kext in this repo's EFI folder is [Laobamac's patched Airport
  
 ## Issues when using 120 Hz
  
-At the moment, switching to 120 Hz is not working well as the display fails to initialize with 120 Hz with acceleration, but has no problem initializing at 60 Hz and changing to 120 Hz after boot, or booting 120 Hz without acceleration via the `-wex-no-accel` boot-arg.
+At the moment, switching to 120 Hz is not working well as the display fails to initialize with 120 Hz with acceleration, but has no problem initializing at 60 Hz and changing to 120 Hz after boot, or booting 120 Hz without acceleration via the `-wex-noaccel` boot-arg.
 
  </details>
 

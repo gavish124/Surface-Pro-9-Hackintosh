@@ -394,8 +394,6 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel Iris Xe Graphics</string>
-				<key>enable-backlight-smoother</key>
-				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
